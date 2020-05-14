@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test JavaScript</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Stylo.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	
+</head>
+<body>
+
+	<div id="header">
+        <h1 class="display-3">Random Quotes Generator</h1>
+    </div>
+
+    <div class="row justify-content-center">
+    	<div class="col-sm-8">
+    		<div class="card">
+    			<div class="card-body">
+    				<h4 id="head-changer">Please Select type of Quote</h4>	
+					<select class="form-control form-control-lg" id="selection">
+						<option value="1">Political Quotes</option>
+						<option value="2">Sport Quotes</option>
+						<option value="3">Educational Quotes</option>
+					</select>
+					<button type="button" class="btn btn-primary" onclick=" Quotes(); " id="show-quotes">Show Quote</button>
+					<div id="quotes"></div>
+					<button type="button" class="btn btn-primary" onclick=" showQuotes(); " id="change-quote">Change</button>
+    				<p id="icons">
+    				<button type="button" class="btn btn-primary" onclick=" showQuotes(); " id="display-quote">Next Quote</button>
+        				<a class="fa fa-dribbble" href="https://dribbble.com/theSageCodee" style="text-decoration: none;"></a>
+        				<a class="fa fa-twitter" href="https://twitter.com/emekachuckbazz" style="text-decoration: none;"></a>
+        			</p>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+
+    
+
+    
+
+
+	<script src="script.js"></script>
+</body>
+</html>
